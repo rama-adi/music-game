@@ -6,17 +6,20 @@
 //
 
 import SwiftUI
+import MusicKit
 
 struct ContentView: View {
+    @State var musicKitManager = MusicKitManager()
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            SelectPlaylistView().onAppear {
+                Task {
+                    await musicKitManager.authorize()
+                }
+            }
         }
-        .padding()
     }
+    
 }
 
 #Preview {

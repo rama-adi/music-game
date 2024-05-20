@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2512A6E12BF2117E009D8B74 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2512A6E02BF2117E009D8B74 /* GameView.swift */; };
 		256B47702BE8DF8200820795 /* MusicGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256B476F2BE8DF8200820795 /* MusicGameApp.swift */; };
 		256B47722BE8DF8200820795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256B47712BE8DF8200820795 /* ContentView.swift */; };
 		256B47742BE8DF8400820795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 256B47732BE8DF8400820795 /* Assets.xcassets */; };
@@ -14,6 +15,17 @@
 		256B47812BE8DF8400820795 /* MusicGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256B47802BE8DF8400820795 /* MusicGameTests.swift */; };
 		256B478B2BE8DF8400820795 /* MusicGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256B478A2BE8DF8400820795 /* MusicGameUITests.swift */; };
 		256B478D2BE8DF8400820795 /* MusicGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256B478C2BE8DF8400820795 /* MusicGameUITestsLaunchTests.swift */; };
+		256B479B2BE8E08100820795 /* MusicKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256B479A2BE8E08100820795 /* MusicKitManager.swift */; };
+		256B479E2BE9F30D00820795 /* DisplayLinkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256B479D2BE9F30D00820795 /* DisplayLinkManager.swift */; };
+		256C96D92BF201B7002076F5 /* MiniplayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256C96D82BF201B7002076F5 /* MiniplayerView.swift */; };
+		256C96DB2BF204EE002076F5 /* TimeInterval+FormatDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256C96DA2BF204EE002076F5 /* TimeInterval+FormatDuration.swift */; };
+		256C96DD2BF20617002076F5 /* MusicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256C96DC2BF20617002076F5 /* MusicManager.swift */; };
+		25819D5C2BEA33FD00BB2166 /* SelectPlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25819D5B2BEA33FD00BB2166 /* SelectPlaylistView.swift */; };
+		25819D5F2BEA360500BB2166 /* MusadoraKit in Frameworks */ = {isa = PBXBuildFile; productRef = 25819D5E2BEA360500BB2166 /* MusadoraKit */; };
+		25819D612BEA377500BB2166 /* PlaylistImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25819D602BEA377500BB2166 /* PlaylistImageView.swift */; };
+		25819D642BEA37A400BB2166 /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 25819D632BEA37A400BB2166 /* CachedAsyncImage */; };
+		25819D662BEA516500BB2166 /* PickedPlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25819D652BEA516500BB2166 /* PickedPlaylistView.swift */; };
+		25E0F44B2BF22B6A006AA78D /* OnTick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E0F44A2BF22B6A006AA78D /* OnTick.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2512A6E02BF2117E009D8B74 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		256B476C2BE8DF8200820795 /* MusicGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		256B476F2BE8DF8200820795 /* MusicGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicGameApp.swift; sourceTree = "<group>"; };
 		256B47712BE8DF8200820795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +57,15 @@
 		256B47862BE8DF8400820795 /* MusicGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		256B478A2BE8DF8400820795 /* MusicGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicGameUITests.swift; sourceTree = "<group>"; };
 		256B478C2BE8DF8400820795 /* MusicGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		256B479A2BE8E08100820795 /* MusicKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicKitManager.swift; sourceTree = "<group>"; };
+		256B479D2BE9F30D00820795 /* DisplayLinkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayLinkManager.swift; sourceTree = "<group>"; };
+		256C96D82BF201B7002076F5 /* MiniplayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniplayerView.swift; sourceTree = "<group>"; };
+		256C96DA2BF204EE002076F5 /* TimeInterval+FormatDuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+FormatDuration.swift"; sourceTree = "<group>"; };
+		256C96DC2BF20617002076F5 /* MusicManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicManager.swift; sourceTree = "<group>"; };
+		25819D5B2BEA33FD00BB2166 /* SelectPlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPlaylistView.swift; sourceTree = "<group>"; };
+		25819D602BEA377500BB2166 /* PlaylistImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistImageView.swift; sourceTree = "<group>"; };
+		25819D652BEA516500BB2166 /* PickedPlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickedPlaylistView.swift; sourceTree = "<group>"; };
+		25E0F44A2BF22B6A006AA78D /* OnTick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTick.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25819D5F2BEA360500BB2166 /* MusadoraKit in Frameworks */,
+				25819D642BEA37A400BB2166 /* CachedAsyncImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +95,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2512A6DE2BF20A0C009D8B74 /* SelectPlaylist */ = {
+			isa = PBXGroup;
+			children = (
+				25819D5B2BEA33FD00BB2166 /* SelectPlaylistView.swift */,
+				25819D602BEA377500BB2166 /* PlaylistImageView.swift */,
+			);
+			path = SelectPlaylist;
+			sourceTree = "<group>";
+		};
+		2512A6DF2BF2116F009D8B74 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				2512A6E02BF2117E009D8B74 /* GameView.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
 		256B47632BE8DF8200820795 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +135,8 @@
 		256B476E2BE8DF8200820795 /* MusicGame */ = {
 			isa = PBXGroup;
 			children = (
+				25819D5A2BEA33E300BB2166 /* Views */,
+				256B479C2BE9F2FE00820795 /* Utils */,
 				256B476F2BE8DF8200820795 /* MusicGameApp.swift */,
 				256B47712BE8DF8200820795 /* ContentView.swift */,
 				256B47732BE8DF8400820795 /* Assets.xcassets */,
@@ -127,6 +170,37 @@
 			path = MusicGameUITests;
 			sourceTree = "<group>";
 		};
+		256B479C2BE9F2FE00820795 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				256B479A2BE8E08100820795 /* MusicKitManager.swift */,
+				256B479D2BE9F30D00820795 /* DisplayLinkManager.swift */,
+				256C96DA2BF204EE002076F5 /* TimeInterval+FormatDuration.swift */,
+				256C96DC2BF20617002076F5 /* MusicManager.swift */,
+				25E0F44A2BF22B6A006AA78D /* OnTick.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		256C96D72BF2017B002076F5 /* PickedPlaylist */ = {
+			isa = PBXGroup;
+			children = (
+				25819D652BEA516500BB2166 /* PickedPlaylistView.swift */,
+				256C96D82BF201B7002076F5 /* MiniplayerView.swift */,
+			);
+			path = PickedPlaylist;
+			sourceTree = "<group>";
+		};
+		25819D5A2BEA33E300BB2166 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2512A6DF2BF2116F009D8B74 /* Game */,
+				2512A6DE2BF20A0C009D8B74 /* SelectPlaylist */,
+				256C96D72BF2017B002076F5 /* PickedPlaylist */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +217,10 @@
 			dependencies = (
 			);
 			name = MusicGame;
+			packageProductDependencies = (
+				25819D5E2BEA360500BB2166 /* MusadoraKit */,
+				25819D632BEA37A400BB2166 /* CachedAsyncImage */,
+			);
 			productName = MusicGame;
 			productReference = 256B476C2BE8DF8200820795 /* MusicGame.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +293,10 @@
 				Base,
 			);
 			mainGroup = 256B47632BE8DF8200820795;
+			packageReferences = (
+				25819D5D2BEA360500BB2166 /* XCRemoteSwiftPackageReference "MusadoraKit" */,
+				25819D622BEA37A400BB2166 /* XCRemoteSwiftPackageReference "CachedAsyncImage" */,
+			);
 			productRefGroup = 256B476D2BE8DF8200820795 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,7 +340,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				256B47722BE8DF8200820795 /* ContentView.swift in Sources */,
+				25819D5C2BEA33FD00BB2166 /* SelectPlaylistView.swift in Sources */,
+				25819D612BEA377500BB2166 /* PlaylistImageView.swift in Sources */,
+				25E0F44B2BF22B6A006AA78D /* OnTick.swift in Sources */,
+				25819D662BEA516500BB2166 /* PickedPlaylistView.swift in Sources */,
+				256C96D92BF201B7002076F5 /* MiniplayerView.swift in Sources */,
+				2512A6E12BF2117E009D8B74 /* GameView.swift in Sources */,
+				256C96DB2BF204EE002076F5 /* TimeInterval+FormatDuration.swift in Sources */,
+				256B479B2BE8E08100820795 /* MusicKitManager.swift in Sources */,
+				256B479E2BE9F30D00820795 /* DisplayLinkManager.swift in Sources */,
 				256B47702BE8DF8200820795 /* MusicGameApp.swift in Sources */,
+				256C96DD2BF20617002076F5 /* MusicManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +517,7 @@
 				DEVELOPMENT_TEAM = QH9X33Y55J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Use your Apple Music subscription to enable full functionality of the app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +547,7 @@
 				DEVELOPMENT_TEAM = QH9X33Y55J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Use your Apple Music subscription to enable full functionality of the app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -588,6 +682,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		25819D5D2BEA360500BB2166 /* XCRemoteSwiftPackageReference "MusadoraKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rryam/MusadoraKit.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		25819D622BEA37A400BB2166 /* XCRemoteSwiftPackageReference "CachedAsyncImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bullinnyc/CachedAsyncImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		25819D5E2BEA360500BB2166 /* MusadoraKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 25819D5D2BEA360500BB2166 /* XCRemoteSwiftPackageReference "MusadoraKit" */;
+			productName = MusadoraKit;
+		};
+		25819D632BEA37A400BB2166 /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 25819D622BEA37A400BB2166 /* XCRemoteSwiftPackageReference "CachedAsyncImage" */;
+			productName = CachedAsyncImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 256B47642BE8DF8200820795 /* Project object */;
 }
